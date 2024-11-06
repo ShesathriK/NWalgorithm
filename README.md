@@ -19,6 +19,7 @@ We construct a matrix D where the element D[i][j] represents the optimal score f
 
 3. Recurrence Relation
 To fill in the matrix, we compute each cell D[i][j] using the following recurrence relation:<br/>
+![needleman_wunsch_relation.png](needleman_wunsch_intuition.png)
 
 4. Traceback
 Once the matrix is filled, we perform a traceback starting from D[n][m] (the bottom-right corner of the matrix).This traceback process reveals the optimal alignment by following the path that led to the optimal score.
